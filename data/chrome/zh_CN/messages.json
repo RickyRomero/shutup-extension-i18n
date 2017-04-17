@@ -1,0 +1,139 @@
+{
+  "product_name": {
+    "message": "Shut Up",
+    "description": "Don't localize this."
+  },
+  "manifest_description": {
+    "message": "在许多热门网站上切换评论开关状态。",
+    "description": "This description appears in the list of installed extensions, as well as when the user is prompted to install it."
+  },
+  "toggle_comments_menu": {
+    "message": "切换评论开关",
+    "description": "The title for a menu item which lets users change the comment blocking state."
+  },
+  "automatic_whitelisting": {
+    "message": "记住我在何处启用了评论",
+    "description": "This setting controls whether, when you click the icon, the extension remembers that you wanted to show comments on that site."
+  },
+  "incognito_note": {
+    "message": "这个选项在隐身标签页中忽略。",
+    "description": "The extension won't remember if you enable comments on a site in an incognito window."
+  },
+  "show_item_in_context_menu": {
+    "message": "显示在内容菜单",
+    "description": "Adds the toggle_comments_menu key to the right-click menu on all pages."
+  },
+  "change_keyboard_shortcut": {
+    "message": "更改键盘快捷键",
+    "description": "When clicked, lets users customize the keyboard shortcut used to activate the extension."
+  },
+  "keyboard_shortcut": {
+    "message": "当前$shortcut$",
+    "description": "If there's a shortcut set, we display this to the right of change_keyboard_shortcut.",
+    "placeholders": {
+      "shortcut": {
+        "content": "$1",
+        "example": "Ctrl+Shift+Z"
+      }
+    }
+  },
+  "keyboard_shortcut_disabled": {
+    "message": "当前未启用",
+    "description": "If there's no keyboard shortcut set, we show this to the right of change_keyboard_shortcut."
+  },
+  "force_stylesheet_update": {
+    "message": "强制样式表更新",
+    "description": "This link refreshes shutup.css from stevenf.com manually."
+  },
+  "last_updated_period_moments": {
+    "message": "最近更新于数秒前",
+    "description": "Shown if the stylesheet was just refreshed."
+  },
+  "last_updated_period_minutes": {
+    "message": "最近更新于$plural$分钟前",
+    "description": "Shown if the stylesheet was refreshed more than 1 minute ago.",
+    "placeholders": {
+      "plural": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "last_updated_period_hour": {
+    "message": "最近更新于1小时前",
+    "description": "Shown if the stylesheet was refreshed 1 hour ago."
+  },
+  "last_updated_period_hours": {
+    "message": "最近更新于$plural$小时前",
+    "description": "Shown if the stylesheet was refreshed more than 1 hour ago.",
+    "placeholders": {
+      "plural": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "last_updated_period_day": {
+    "message": "最近更新于昨天",
+    "description": "Shown if the stylesheet was refreshed yesterday."
+  },
+  "last_updated_period_days": {
+    "message": "最近更新于$plural$天前",
+    "description": "Shown if the stylesheet was refreshed more than 1 day ago.",
+    "placeholders": {
+      "plural": {
+        "content": "$1",
+        "example": "15"
+      }
+    }
+  },
+  "last_updated_period_week": {
+    "message": "最近更新于一周以前",
+    "description": "Shown if the stylesheet was refreshed more than a week ago."
+  },
+  "updating": {
+    "message": "更新中...",
+    "description": "Shown when the user forces a stylesheet update."
+  },
+  "error_no_internet_connection": {
+    "message": "无法连接到stevenf.com。请检查您的互联网连接。",
+    "description": "This error is displayed if we can't reach the update server when manually forcing a stylesheet update."
+  },
+  "error_unexpected_response": {
+    "message": "得到了一个意外响应。请稍后再试。",
+    "description": "This error is displayed if we get an unexpected response when manually forcing a stylesheet update."
+  },
+  "name_version_copyright_ricky": {
+    "message": "$name$ $version$ ©2011 - 2017 $ricky_link$",
+    "description": "For example: Shut Up 3.0, followed by the copyright notice",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Shut Up"
+      },
+      "version": {
+        "content": "$2",
+        "example": "3.0"
+      },
+      "ricky_link": {
+        "content": "<a href=\"https://rickyromero.com/\">Ricky Romero</a>"
+      }
+    }
+  },
+  "copyright_steven": {
+    "message": "shutup.css ©2010 - 2017 $steven_link$ 及 $contributors_link$",
+    "description": "Copyright notice for shutup.css",
+    "placeholders": {
+      "steven_link": {
+        "content": "<a href=\"https://stevenf.com/\">Steven Frank</a>"
+      },
+      "contributors_link": {
+        "content": "<a href=\"https://github.com/panicsteve/shutup-css/commits/master\">合作者</a>"
+      }
+    }
+  },
+  "release_notes": {
+    "message": "发行说明",
+    "description": "Links to the (English-only) release notes page detailing updates to the extension."
+  }
+}

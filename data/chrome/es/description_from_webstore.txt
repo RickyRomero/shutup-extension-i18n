@@ -1,0 +1,11 @@
+Si alguna vez has ido a un sitio web y has leído la sección de comentarios, seguramente te habrás dado cuenta de que es sólo un espacio mordaz y absurdo.
+
+¿Por qué someterte a eso?
+
+Shut Up oculta los comentarios de manera predeterminada. Y puedes hacer que los comentarios de una página sean visibles con el clic de un botón. Recordará donde activaste los comentarios, y los mostrará la próxima vez que visites ese sitio.
+
+Eso es todo. Sencillo y gratis. ¡Disfruta!
+
+
+Utiliza shutup.css de Steven Frank, con los permisos requeridos.
+https://stevenf.com/shutupcss/

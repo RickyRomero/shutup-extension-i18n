@@ -1,0 +1,11 @@
+If you've ever gone to a website and read its comments section, you'll have seen that it's just a vitriolic, idiotic wasteland.
+
+Why subject yourself to that?
+
+Shut Up hides comments by default.  And, you can show comments on a page with a click of a button.  It will remember where you turn on comments, and will show them the next time you visit that site.
+
+That's it.  Simple and free.  Enjoy!
+
+
+Uses shutup.css by Steven Frank, with permission.
+https://stevenf.com/shutupcss/
