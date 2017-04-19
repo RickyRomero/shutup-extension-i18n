@@ -4,11 +4,11 @@
     "description": "Don't localize this."
   },
   "manifest_description": {
-    "message": "Afficher les commentaires sur de nombreux sites populaires.",
+    "message": "Cacher ou afficher les commentaires sur de nombreux sites populaires.",
     "description": "This description appears in the list of installed extensions, as well as when the user is prompted to install it."
   },
   "toggle_comments_menu": {
-    "message": "Afficher les commentaires",
+    "message": "Cacher ou afficher les commentaires",
     "description": "The title for a menu item which lets users change the comment blocking state."
   },
   "automatic_whitelisting": {
