@@ -12,7 +12,7 @@
     "description": "The title for a menu item which lets users change the comment blocking state."
   },
   "automatic_whitelisting": {
-    "message": "Erinnern, wo ich Kommentare aktiviert habe",
+    "message": "Erinnern, wo ich Kommentare aktiviert\u00A0habe",
     "description": "This setting controls whether, when you click the icon, the extension remembers that you wanted to show comments on that site."
   },
   "incognito_note": {
