@@ -1,0 +1,11 @@
+Wenn Sie schon einmal eine Website besucht und deren Kommentarbereich gelesen haben, wissen Sie, dass sich hier nur idiotische und nervige Aussagen finden.
+
+Warum sollten Sie sich damit befassen?
+
+Shut Up versteckt Kommentare standardmäßig und mit einem Klick können Sie die Kommentare einer Seite betrachten. Shut Up erinnert sich daran, wo Sie Kommentare aktiviert haben und zeigt Sie Ihnen bei Ihrem nächsten Besuch an.
+
+Das war's. Ganz einfach und kostenlos. Viel Spaß!
+
+
+Verwendet shutup.css von Steven Frank mit freundlicher Erlaubnis
+https://stevenf.com/shutupcss/

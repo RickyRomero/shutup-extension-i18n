@@ -1,0 +1,11 @@
+Si vous avez déjà visité un site et lu la section des commentaires, vous savez que c’est juste un désert stupide au vitriol.
+
+Pourquoi vous soumettre à cela ?
+
+Shut Up masque par défaut les commentaires. Vous pouvez afficher les commentaires sur une page en un clic. L’appli se rappellera sur quels sites vous avez activé les commentaires et les affichera la prochaine fois que vous visiterez ce site.
+
+C'est tout. Simple et gratuit. Profitez !
+
+
+Utilisez shutup.css par Steven Frank, avec la permission.
+https://stevenf.com/shutupcss/
