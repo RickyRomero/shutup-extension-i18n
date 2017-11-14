@@ -19,6 +19,10 @@
     "message": "Diese Option wird in Inkognito-Tabs ignoriert.",
     "description": "The extension won't remember if you enable comments on a site in an incognito window."
   },
+  "private_browsing_note": {
+    "message": "Diese Option wird beim Privaten Browsing ignoriert.",
+    "description": "The extension won't remember if you enable comments on a site in Firefox's Private Browsing mode."
+  },
   "show_item_in_context_menu": {
     "message": "Im Kontextmenü anzeigen",
     "description": "Adds the toggle_comments_menu key to the right-click menu on all pages."
@@ -33,7 +37,17 @@
     "placeholders": {
       "shortcut": {
         "content": "$1",
-        "example": "Ctrl+Shift+Z"
+        "example": "Ctrl+Shift+X"
+      }
+    }
+  },
+  "keyboard_shortcut_not_configurable": {
+    "message": "Sie können auch Kommentare umschalten, indem Sie die Schaltfläche $shortcut$ drücken.",
+    "description": "Firefox users can't change the keyboard shortcut, so this is displayed instead for those users.",
+    "placeholders": {
+      "shortcut": {
+        "content": "$1",
+        "example": "Ctrl+Shift+X"
       }
     }
   },
@@ -96,7 +110,7 @@
     "description": "Shown when the user forces a stylesheet update."
   },
   "error_no_internet_connection": {
-    "message": "Verbindung zu rickyromero.com nicht möglich. Überprüfen Sie Ihre Internetverbindung.",
+    "message": "Kann mit rickyromero.com nicht verbinden. Prüfen Sie Ihre Internetverbindung.",
     "description": "This error is displayed if we can't reach the update server when manually forcing a stylesheet update."
   },
   "error_unexpected_response": {
