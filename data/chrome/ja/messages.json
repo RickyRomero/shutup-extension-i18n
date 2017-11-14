@@ -43,7 +43,7 @@
   },
   "force_stylesheet_update": {
     "message": "強制的にスタイルシートを更新する",
-    "description": "This link refreshes shutup.css from stevenf.com manually."
+    "description": "This link refreshes shutup.css from rickyromero.com manually."
   },
   "last_updated_period_moments": {
     "message": "更新されたばかりです",
@@ -96,7 +96,7 @@
     "description": "Shown when the user forces a stylesheet update."
   },
   "error_no_internet_connection": {
-    "message": "stevenf.com へ接続できませんでした。インターネットに接続されているかご確認ください。",
+    "message": "rickyromero.com へ接続できませんでした。インターネットに接続されているかご確認ください。",
     "description": "This error is displayed if we can't reach the update server when manually forcing a stylesheet update."
   },
   "error_unexpected_response": {

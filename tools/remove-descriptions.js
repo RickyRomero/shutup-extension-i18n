@@ -6,6 +6,10 @@ const fs = require('fs')
 
 
 
+try {
+  fs.mkdirSync('../generated')
+} catch (e) {}
+
 recurse('../data')
 
 function recurse (into) {
@@ -26,6 +30,7 @@ function recurse (into) {
 
 function removeDescriptions (path) {
   console.log(path)
+  let locale = path.match(/([^\/]+?)\/messages/)[1]
   let strings = JSON.parse(fs.readFileSync(path, {encoding: 'utf8'}))
 
   Object.keys(strings).forEach((key) => {
@@ -34,9 +39,13 @@ function removeDescriptions (path) {
     }
   })
 
-  console.log(JSON.stringify(strings, null, 2))
+  try {
+    fs.mkdirSync(`../generated/${locale}`)
+  } catch (e) {}
 
-  console.log('\n')
-  console.log('\n')
-  console.log('\n')
+  fs.writeFileSync(
+    `../generated/${locale}/messages.json`,
+    JSON.stringify(strings, null, 2),
+    {encoding: 'utf8'}
+  )
 }

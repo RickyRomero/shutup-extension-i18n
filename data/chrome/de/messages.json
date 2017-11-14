@@ -43,7 +43,7 @@
   },
   "force_stylesheet_update": {
     "message": "Stylesheet-Aktualisierung erzwingen",
-    "description": "This link refreshes shutup.css from stevenf.com manually."
+    "description": "This link refreshes shutup.css from rickyromero.com manually."
   },
   "last_updated_period_moments": {
     "message": "Letzte Aktualisierung vor wenigen Augenblicken",
@@ -96,7 +96,7 @@
     "description": "Shown when the user forces a stylesheet update."
   },
   "error_no_internet_connection": {
-    "message": "Verbindung zu stevenf.com nicht möglich. Überprüfen Sie Ihre Internetverbindung.",
+    "message": "Verbindung zu rickyromero.com nicht möglich. Überprüfen Sie Ihre Internetverbindung.",
     "description": "This error is displayed if we can't reach the update server when manually forcing a stylesheet update."
   },
   "error_unexpected_response": {

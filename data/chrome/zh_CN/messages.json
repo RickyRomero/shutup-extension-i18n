@@ -19,6 +19,10 @@
     "message": "这个选项在隐身标签页中忽略。",
     "description": "The extension won't remember if you enable comments on a site in an incognito window."
   },
+  "private_browsing_note": {
+    "message": "这个选项在私密浏览过程期间忽略。",
+    "description": "The extension won't remember if you enable comments on a site in Firefox's Private Browsing mode."
+  },
   "show_item_in_context_menu": {
     "message": "显示在内容菜单",
     "description": "Adds the toggle_comments_menu key to the right-click menu on all pages."
@@ -33,7 +37,17 @@
     "placeholders": {
       "shortcut": {
         "content": "$1",
-        "example": "Ctrl+Shift+Z"
+        "example": "Ctrl+Shift+X"
+      }
+    }
+  },
+  "keyboard_shortcut_not_configurable": {
+    "message": "您也可以按$shortcut$切换评论。",
+    "description": "Firefox users can't change the keyboard shortcut, so this is displayed instead for those users.",
+    "placeholders": {
+      "shortcut": {
+        "content": "$1",
+        "example": "Ctrl+Shift+X"
       }
     }
   },
@@ -43,7 +57,7 @@
   },
   "force_stylesheet_update": {
     "message": "强制样式表更新",
-    "description": "This link refreshes shutup.css from stevenf.com manually."
+    "description": "This link refreshes shutup.css from rickyromero.com manually."
   },
   "last_updated_period_moments": {
     "message": "最近更新于数秒前",
@@ -96,7 +110,7 @@
     "description": "Shown when the user forces a stylesheet update."
   },
   "error_no_internet_connection": {
-    "message": "无法连接到stevenf.com。请检查您的互联网连接。",
+    "message": "无法连接到rickyromero.com。请检查您的互联网连接。",
     "description": "This error is displayed if we can't reach the update server when manually forcing a stylesheet update."
   },
   "error_unexpected_response": {
