@@ -16,8 +16,12 @@
     "description": "This setting controls whether, when you click the icon, the extension remembers that you wanted to show comments on that site."
   },
   "incognito_note": {
-    "message": "Esta opción es ignorada en las pestañas de incógnito.",
+    "message": "Esta opción se ignora en las pestañas de incógnito.",
     "description": "The extension won't remember if you enable comments on a site in an incognito window."
+  },
+  "private_browsing_note": {
+    "message": "Esta opción se ignora durante la navegación privada.",
+    "description": "The extension won't remember if you enable comments on a site in Firefox's Private Browsing mode."
   },
   "show_item_in_context_menu": {
     "message": "Mostrar en menú contextual",
@@ -33,12 +37,22 @@
     "placeholders": {
       "shortcut": {
         "content": "$1",
-        "example": "Ctrl+Shift+Z"
+        "example": "Ctrl+Shift+X"
+      }
+    }
+  },
+  "keyboard_shortcut_not_configurable": {
+    "message": "También puedes activar los comentarios pulsando $shortcut$.",
+    "description": "Firefox users can't change the keyboard shortcut, so this is displayed instead for those users.",
+    "placeholders": {
+      "shortcut": {
+        "content": "$1",
+        "example": "Ctrl+Shift+X"
       }
     }
   },
   "keyboard_shortcut_disabled": {
-    "message": "No hay uno actualmente activado",
+    "message": "Actualmente no habilitado",
     "description": "If there's no keyboard shortcut set, we show this to the right of change_keyboard_shortcut."
   },
   "force_stylesheet_update": {
@@ -74,7 +88,7 @@
     }
   },
   "last_updated_period_day": {
-    "message": "Última actualización hace 1 día",
+    "message": "Última actualización realizada ayer",
     "description": "Shown if the stylesheet was refreshed yesterday."
   },
   "last_updated_period_days": {
