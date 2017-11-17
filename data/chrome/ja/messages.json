@@ -19,6 +19,10 @@
     "message": "シークレットタブを使用中は、このオプションは無視されます。",
     "description": "The extension won't remember if you enable comments on a site in an incognito window."
   },
+  "private_browsing_note": {
+    "message": "このオプションは、シークレット ウィンドウを使用中の際には適用されません。",
+    "description": "The extension won't remember if you enable comments on a site in Firefox's Private Browsing mode."
+  },
   "show_item_in_context_menu": {
     "message": "コンテキスト メニューに表示させる",
     "description": "Adds the toggle_comments_menu key to the right-click menu on all pages."
@@ -33,7 +37,17 @@
     "placeholders": {
       "shortcut": {
         "content": "$1",
-        "example": "Ctrl+Shift+Z"
+        "example": "Ctrl+Shift+X"
+      }
+    }
+  },
+  "keyboard_shortcut_not_configurable": {
+    "message": "$shortcut$ を押すと、コメントを切り替えることができます。",
+    "description": "Firefox users can't change the keyboard shortcut, so this is displayed instead for those users.",
+    "placeholders": {
+      "shortcut": {
+        "content": "$1",
+        "example": "Ctrl+Shift+X"
       }
     }
   },
