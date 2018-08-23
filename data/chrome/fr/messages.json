@@ -118,7 +118,7 @@
     "description": "This error is displayed if we get an unexpected response when manually forcing a stylesheet update."
   },
   "name_version_copyright_ricky": {
-    "message": "$name$ $version$ ©2011 - 2017 $ricky_link$",
+    "message": "$name$ $version$ ©2011 - 2018 $ricky_link$",
     "description": "For example: Shut Up 3.0, followed by the copyright notice",
     "placeholders": {
       "name": {
@@ -135,7 +135,7 @@
     }
   },
   "copyright_steven": {
-    "message": "shutup.css ©2010 - 2017 $steven_link$ et $contributors_link$",
+    "message": "shutup.css ©2010 - 2018 $steven_link$ et $contributors_link$",
     "description": "Copyright notice for shutup.css",
     "placeholders": {
       "steven_link": {
