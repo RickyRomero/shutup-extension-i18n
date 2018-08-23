@@ -8,4 +8,4 @@ C'est tout. Simple et gratuit. Profitez !
 
 
 Utilisez shutup.css par Steven Frank, avec la permission.
-https://stevenf.com/shutupcss/
+https://github.com/panicsteve/shutup-css

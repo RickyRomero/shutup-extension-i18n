@@ -8,4 +8,4 @@
 
 
 يستخدم shutup.css المصممة بواسطة ستيفين فرانك، بتصريح.
-https://stevenf.com/shutupcss/
+https://github.com/panicsteve/shutup-css

@@ -8,4 +8,4 @@ Shut Up を使うと、デフォルトでコメントを非表示に設定いた
 
 
 許可を得て、スティーブン・フランク作の shutup.css を使用します。
-https://stevenf.com/shutupcss/
+https://github.com/panicsteve/shutup-css

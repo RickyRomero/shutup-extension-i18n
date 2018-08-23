@@ -8,4 +8,4 @@ Shut Up會默認地隱藏評論。並且，當您點擊一個按鈕後就可以�
 
 
 由史蒂文·弗蘭克提供的shutup.css，包括許可。
-https://stevenf.com/shutupcss/
+https://github.com/panicsteve/shutup-css
