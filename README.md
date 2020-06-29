@@ -1,3 +1,7 @@
+# Notice
+
+This repo is no longer relevant. Please contribute translations directly to the [shut-up-webextension](https://github.com/RickyRomero/shut-up-webextension) repo instead. Thank you!
+
 # shutup-extension-i18n
 Contains localizations for the Shut Up browser extensions. To contribute, you can find the file for your language in the `data` directory, make your changes, and submit a pull request.
 
